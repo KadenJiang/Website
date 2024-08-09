@@ -1,0 +1,91 @@
+/*Color Pallet
+003049 blue
+D62828 red
+F77F00 orange
+FCBF49 yellow
+EAE2B7white
+*/
+body{
+    background-color:#EAE2B7 ;
+    font-family:'Courier New', Courier, monospace; 	
+}
+div{
+	
+    color:#003049 ; 	
+    font-size: 32px;; 	
+    padding: 5px;; 
+
+}
+
+nav{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.items:hover{
+    background-color: #FCBF49;
+    opacity: 0.5;
+}
+
+
+
+
+.intro{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+
+#startImage{
+    border: #D62828  ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.hobbies{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.project{
+    text-align: center;
+    color:#D62828 ;
+
+
+}
+
+.Hobbies{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+ 
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.gallery{
+    width: 400px;
+}
+
+#g{
+    display :flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
